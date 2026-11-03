@@ -40,7 +40,7 @@ jobs:
         run: npm ci
 
       - name: Style
-        run: 
+        run: npm run format:check
 
 
    
