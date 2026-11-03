@@ -23,8 +23,8 @@ jobs:
       - name: run tests
         run: npm run test  -- --coverage
 
-  style:
-    name: format
+  Style:
+    name: Style
     runs-on: ubuntu-latest 
     
     steps: 
